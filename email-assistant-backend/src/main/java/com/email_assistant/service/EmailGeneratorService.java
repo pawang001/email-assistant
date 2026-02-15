@@ -43,9 +43,9 @@ public class EmailGeneratorService {
         // Send Request
         String response = webClient.post()
                 .uri(uriBuilder -> uriBuilder
-                        .path("/v1beta/models/gemini-3-flash-preview:generateContent")
+                        .path("/v1/models/gemini-1.5-flash:generateContent")
+                        .queryParam("key", apiKey)
                         .build())
-                .header("x-goog-api-key", apiKey)
                 .bodyValue(request)
                 .retrieve()
                 .onStatus(status -> status.isError(), clientResponse ->
