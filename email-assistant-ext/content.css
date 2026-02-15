@@ -1,0 +1,9 @@
+.ai-reply-button {
+  margin-right: 8px;
+}
+
+.ai-reply-button:disabled,
+.ai-reply-button.is-loading {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
