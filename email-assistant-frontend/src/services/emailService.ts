@@ -1,7 +1,12 @@
 import axios from 'axios';
 import type { GenerateReplyApiResponse, GenerateReplyRequest } from '../types/email';
 
-const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+const remoteApiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+const localApiBaseUrl = import.meta.env.VITE_API_BASE_URL_LOCAL || 'http://localhost:8081';
+
+const apiBaseUrl = import.meta.env.DEV
+  ? localApiBaseUrl || remoteApiBaseUrl
+  : remoteApiBaseUrl || localApiBaseUrl;
 
 if (!apiBaseUrl) {
   throw new Error('VITE_API_BASE_URL is not set');
