@@ -325,22 +325,11 @@ Contributions are welcome! Here's how you can help:
 4. **Push** to the branch (`git push origin feature/AmazingFeature`)
 5. **Open** a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👨‍💻 Author
 
 **Pawang001**
 
 - GitHub: [@pawang001](https://github.com/pawang001)
-
-## 🙏 Acknowledgments
-
-- **Google Gemini AI** - For providing the powerful AI model
-- **Material-UI Team** - For the excellent React component library
-- **Spring Boot Team** - For the robust backend framework
-- **Vite Team** - For the blazing fast build tool
 
 ## 📞 Support
 
@@ -349,7 +338,3 @@ If you encounter any issues or have questions:
 1. Check the [Issues](https://github.com/pawang001/email-assistant/issues) page
 2. Create a new issue with detailed information
 3. Provide steps to reproduce any bugs
-
----
-
-**Made with ❤️ for better email communication**
