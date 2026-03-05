@@ -22,6 +22,7 @@ const createAIButton = () => {
     button.textContent = 'AI Reply';
     button.setAttribute('data-tooltip', 'Generate AI Reply');
     button.setAttribute('aria-label', 'Generate AI Reply');
+    button.style.marginRight = '8px';
     return button;
 }
 
