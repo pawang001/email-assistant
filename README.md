@@ -2,6 +2,22 @@
 
 An AI-powered email reply generator that helps you draft professional email responses with ease. This project integrates Google Gmail with Google's Gemini AI to intelligently generate contextualized, tone-aware email replies.
 
+## 📸 Screenshots
+
+### Web Application (Frontend)
+
+| Before Generating Reply | After Generating Reply |
+|:-----------------------:|:----------------------:|
+| ![Frontend – before generating reply](images/frontend-before.png) | ![Frontend – after generating reply](images/frontend-after.png) |
+
+### Chrome Extension
+
+| Extension View (Before) | Extension View (After) |
+|:-----------------------:|:----------------------:|
+| ![Extension – before AI reply](images/ext-before.png) | ![Extension – after AI reply](images/ext-after.png) |
+
+---
+
 ## 🌟 Features
 
 - **AI-Powered Email Generation** - Leverages Google Gemini AI to generate intelligent, context-aware email replies
